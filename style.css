@@ -1,0 +1,90 @@
+/* reset part */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1d5a82;
+}
+.container {
+  height: 100vh;
+  padding: 2rem 1rem;
+  width: 50%;
+  text-align: center;
+  margin: 1rem auto;
+  background-color: #216694;
+  border-radius: 23px;
+}
+.main-heading {
+  color: #2573a7;
+}
+.app-description {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+.Input-label {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  font-weight: bolder;
+}
+.input {
+  padding: 0.6rem 1rem;
+  border: 3px solid #2573a7;
+  background-color: black;
+  font-size: 1rem;
+  margin: 0.1px;
+  width: 100%;
+  max-width: 258px;
+  border-radius: 0.5rem;
+}
+#calculate-change {
+  padding: 0.7rem 1rem;
+  margin: 0.7rem auto;
+  background-color: #2980b9;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bolder;
+  border: none;
+  outline: #fff;
+}
+#calculate-change:hover {
+  color: #2980b9;
+  background-color: black;
+}
+.message-returned {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0 0;
+}
+
+table {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+.table-caption {
+  text-align: center;
+  padding: 5rem auto;
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+table,
+th,
+tr,
+td {
+  border: 2px solid #2573a7;
+  border-collapse: collapse;
+  padding: 0.6rem;
+}
+table th,
+td {
+  font-size: larger;
+}

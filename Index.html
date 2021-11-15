@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Cash register manager js</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <div class="container">
+      <!-- app heading name -->
+      <h1 class="main-heading">Cash Register</h1>
+      <!-- description about app -->
+      <p class="app-description">
+        Enter the bill amount and cash given by the customer and know minimum
+        number of notes to return.
+      </p>
+      <!-- input section -->
+      <label for="bill-given" class="Input-label">Bill given</label> <br />
+      <input type="number" id="bill-given" class="input" /> <br />
+
+      <label for="Cash-given" class="Input-label">Cash given</label> <br />
+      <input type="number" id="Cash-given" class="input" /> <br />
+      <!-- calculate changes button section -->
+      <button id="calculate-change">Calculate Change</button>
+      <p class="message-returned">Invalid bill amount</p>
+      <!-- table of no of notes -->
+      <table>
+        <caption class="table-caption">
+          Change Returned
+        </caption>
+        <tr>
+          <th>Change</th>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+        </tr>
+        <tr>
+          <th>Denominations</th>
+          <td class="available-notes">2000</td>
+          <td class="available-notes">500</td>
+          <td class="available-notes">100</td>
+          <td class="available-notes">20</td>
+          <td class="available-notes">10</td>
+          <td class="available-notes">5</td>
+          <td class="available-notes">1</td>
+        </tr>
+      </table>
+    </div>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
