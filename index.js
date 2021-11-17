@@ -3,7 +3,7 @@ const Cash = document.querySelector("#Cash-given");
 const btnCalculateChange = document.querySelector("#calculate-change");
 const message = document.querySelector(".message-returned");
 const noOfNotes = document.querySelectorAll(".no-of-notes");
-const availableNotes = [2000, 500, 200, 100, 50, 20, 10];
+const availableNotes = [2000, 500, 200, 100, 50, 20, 10,5];
 
 btnCalculateChange.addEventListener("click", function validateAmount() {
   hideMessage();
