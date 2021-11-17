@@ -82,9 +82,15 @@ tr,
 td {
   border: 2px solid #2573a7;
   border-collapse: collapse;
-  padding: 0.6rem;
+  padding: 0.7rem;
 }
 table th,
 td {
   font-size: larger;
+}
+table th, .available-notes{
+    background-color: #2573a7;
+}
+table td.no-of-notes{
+    color: black;
 }
